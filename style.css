@@ -8,7 +8,7 @@
 * {
     padding: 0;
     margin: 0;
-    box.sizing: border-box;
+    box-sizing: border-box;
 }
 
 body  {
@@ -84,10 +84,10 @@ body  {
 
 /* console game */
 .game {
-    background-image: url(images/background-fixed.jpg);
+/*     background-image: url(images/background-fixed.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 530px;
     display: flex;
     flex-direction: row;
