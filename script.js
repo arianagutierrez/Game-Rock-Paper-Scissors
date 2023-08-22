@@ -29,7 +29,7 @@ let score = { player: 0, computer: 0 }
 const updateScore = () => {
   scoreDisplay.textContent = `${score.player} - ${score.computer}`;
   if (score.player === 5) {
-    resultDisplay.innerHTML = 'Congratulations! You won!';
+    resultDisplay.innerHTML = 'You are the winner!';
     disableButtons();
     playAgainButton.style.display = 'block';
   } else if (score.computer === 5) {
@@ -312,12 +312,24 @@ function typeWriter() { //function for title animation
   }
 }
 
+// backgroundMusic
+function sound() {
+  const song = document.querySelector("backgroundMp3");
+  song.play();
+}
+sound.addEventListener("canplaythrough", () => {
+  sound.currentTime = 0;
+ sound.play();
+});
+window.addEventListener("load", () => {
+  sound.load();
+});
+
 // To play a sound audio on click
 function playSound() {
   const buttonPress = document.querySelector("#startbuttonsound");
   buttonPress.play();
 }
-
 //sound for the STAR button
 mainButton = document.querySelector("#startbutton").addEventListener("click", playSound);
 
