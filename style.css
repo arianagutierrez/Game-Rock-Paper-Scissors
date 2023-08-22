@@ -214,12 +214,26 @@ a {
 /* ---------------------------------------------------------------------------------------------------- */
 /*small screens*/
 @media only screen and (max-width: 572px) {
-    body {
-        height: 100%; /* Imposta l'altezza del body al 100% dell'altezza del viewport */
+   * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body  {
+        height: 100vh; /* Imposta l'altezza del body al 100% dell'altezza del viewport */
         overflow: hidden;
     }
+    
+    /* DIV in which you start */
     #startcontainer {
         height: 100vh;
+        display: flex;
+        justify-content: center;
+        background-image: url(images/fire.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
 /* @media only screen and (max-width: 1000px) {
