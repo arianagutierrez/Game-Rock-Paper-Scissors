@@ -209,7 +209,7 @@ a {
 
 /* ---------------------------------------------------------------------------------------------------- */
 /*small screens*/
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
     body { /* la finestra non possa ridursi al di sotto di 1000px di larghezza */
         min-width: 1000px;
         overflow-x: hidden;
@@ -267,11 +267,10 @@ a {
         width: 55%;
       font-size: 15px;
     }  
-}
+} */
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 572px) {
     body {
-        height: 100vh; /* Imposta l'altezza del body al 100% dell'altezza del viewport */
-        background-repeat: no-repeat;
+        height: 100%; /* Imposta l'altezza del body al 100% dell'altezza del viewport */
       }
 }
