@@ -312,12 +312,6 @@ function typeWriter() { //function for title animation
   }
 }
 
-function playMusic() {
-  const song = document.getElementById("backgroundMusic");
-  song.play();
-}
-document = playMusic();
-
 // To play a sound audio on click
 function playSound() {
   const buttonPress = document.querySelector("#startbuttonsound");
