@@ -211,7 +211,7 @@ a {
 /*small screens*/
 /* @media only screen and (max-width: 1000px) {
     body { /* la finestra non possa ridursi al di sotto di 1000px di larghezza */
-        min-width: 1000px;
+/*         min-width: 1000px;
         overflow-x: hidden;
         background-size: cover;
         background-position: center;
@@ -267,7 +267,7 @@ a {
         width: 55%;
       font-size: 15px;
     }  
-} */
+}  */
 
 @media only screen and (max-width: 572px) {
     body {
