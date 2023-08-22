@@ -14,6 +14,7 @@ body  {
     background-image: url(images/background-fixed.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* DIV in which you start */
@@ -25,6 +26,7 @@ body  {
     background-image: url(images/fire.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #startbutton {
