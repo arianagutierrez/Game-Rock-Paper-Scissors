@@ -60,6 +60,7 @@ body  {
 
 /*Includes the main divs: 'header', 'game' and 'footer'*/
 #endcontainer {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
