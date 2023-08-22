@@ -273,11 +273,9 @@ a {
 
 @media only screen and (max-width: 600px) {
     body {
+        height: 100vh; /* Imposta l'altezza del body al 100% dell'altezza del viewport */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
       }
-    .game { 
-        height: 100vh; /* Imposta l'altezza del body al 100% dell'altezza del viewport */
-    }
 }
