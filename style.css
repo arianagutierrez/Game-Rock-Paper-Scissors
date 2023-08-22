@@ -90,7 +90,7 @@ body  {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 530px;
+/*     height: 530px; */
     display: flex;
     flex-direction: row;
     padding: 20px;
