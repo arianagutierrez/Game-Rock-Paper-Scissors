@@ -5,16 +5,20 @@
     --fontsecondary: 'Pixelony', sans-serif;
 }
 
-html,
-body  {
+* {
     padding: 0;
     margin: 0;
+    box.sizing: border-box;
+}
+
+body  {
+    
     height: 100vh; /* Imposta l'altezza del body al 100% dell'altezza del viewport */
-    overflow: hidden;
     background-image: url(images/background-fixed.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 /* DIV in which you start */
