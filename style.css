@@ -214,8 +214,10 @@ a {
 @media only screen and (max-width: 1000px) {
     body { /* la finestra non possa ridursi al di sotto di 1000px di larghezza */
         min-width: 1000px;
-        background-repeat: no-repeat;
         overflow-x: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
       }
 
     #title {
