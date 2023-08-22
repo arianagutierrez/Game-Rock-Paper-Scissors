@@ -312,18 +312,11 @@ function typeWriter() { //function for title animation
   }
 }
 
-// backgroundMusic
-function sound() {
-  const song = document.querySelector("backgroundMp3");
+function playMusic() {
+  const song = document.getElementById("backgroundMusic");
   song.play();
 }
-sound.addEventListener("canplaythrough", () => {
-  sound.currentTime = 0;
- sound.play();
-});
-window.addEventListener("load", () => {
-  sound.load();
-});
+document = playMusic();
 
 // To play a sound audio on click
 function playSound() {
