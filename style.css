@@ -156,7 +156,7 @@ body  {
 
 /*Result display */
 .result {
-    width: 190%;
+    width: 100%;
     color: var(--clrprimary);
     display: flex;
     flex-direction: column;
