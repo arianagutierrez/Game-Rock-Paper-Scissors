@@ -278,8 +278,6 @@ a {
         background-repeat: no-repeat;
       }
     .game { 
-        width: 55%;
-        height: 600px;
+        height: 100vh; /* Imposta l'altezza del body al 100% dell'altezza del viewport */
     }
-
 }
