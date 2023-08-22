@@ -9,7 +9,7 @@ html,
 body  {
     padding: 0;
     margin: 0;
-    height: 100%;
+    height: 100vh; /* Imposta l'altezza del body al 100% dell'altezza del viewport */
     overflow: hidden;
     background-image: url(images/background-fixed.jpg);
     background-size: cover;
@@ -20,7 +20,6 @@ body  {
 /* DIV in which you start */
 #startcontainer {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     background-image: url(images/fire.jpg);
@@ -32,7 +31,6 @@ body  {
 #startbutton {
     background-color: var(--clrsecondary);
     min-width: 250px;
-    height: 95px;
     padding: 5px;
     border: none;
     outline: none;
