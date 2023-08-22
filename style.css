@@ -277,4 +277,9 @@ a {
         background-position: center;
         background-repeat: no-repeat;
       }
+    .game { 
+        width: 95%;
+        height: 100%;
+    }
+
 }
