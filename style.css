@@ -74,7 +74,7 @@ body  {
     justify-content: center;
     background-color: var(--clrsecondary);
     width: 100%;
-/*     margin: 0; */
+    height: 20%;
 }
   
 #title {
@@ -197,7 +197,7 @@ body  {
 
 footer {
     width: 100%;
-    height: 100%;
+    height: 40%;
     font-family: var(--fontsecondary);
     font-size: 20px;
     background-color: #22161E;
