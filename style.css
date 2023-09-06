@@ -80,7 +80,6 @@ html {
     background-color: var(--clrsecondary);
     width: 100%;
     height: 20%;
-    height: 20%;
 }
   
 #title {
@@ -294,3 +293,31 @@ a {
         overflow-x: hidden;
     }
 } */
+
+@media only screen and (max-width: 400px) {
+    header {
+        font-size: 25px;
+        height: 15%;
+    }
+
+    #move {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .button3 {
+        width: 250%;
+    }
+
+    .result {
+        width: 280%;
+    }
+
+    #play-again {
+        font-size: 13px;
+    }
+
+    #score { 
+        font-size: 30px;
+    }
+}
